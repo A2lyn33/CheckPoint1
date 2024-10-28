@@ -16,6 +16,6 @@
 | 5 | RAS |
 | 6 | ``` fg 1% ``` (foreground) |
 | 7 | _Pour Le Réseau Tout Se Passe Automatiquement_ : **couche 2 = liaisons de données (data link)** et **couche 3 = réseaux (network)** |
-| 8 | ```cd = Get-Location; Cp = Copy-Item; Mkdir = New-Item; ls = Get-ChildItem``` |
+| 8 | ```cd = Set-Location; Cp = Copy-Item; Mkdir = New-Item; ls = Get-ChildItem``` |
 | 9 | Payload = les données transportées |
 | 10 | Le CIDR est plus efficaces que les classes IP. Il propose plus de possibilités d'adressage et moins de gaspillage d'adresses. |
