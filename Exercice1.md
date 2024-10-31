@@ -9,8 +9,6 @@
 ***
 ![1 1](https://github.com/user-attachments/assets/c922beb2-6e75-450b-b80b-62b333dc4102)
 ***
-![1 2](https://github.com/user-attachments/assets/b65cbe72-7e17-46c8-89ff-4fa07737e82d)
-***
 ![1 3](https://github.com/user-attachments/assets/f0679592-51fd-46de-8220-ecc0b108af87)
 ***
 ![1 4](https://github.com/user-attachments/assets/8702e80f-2ece-43dc-b228-3d19ccf099b8)
