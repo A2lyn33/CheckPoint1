@@ -23,8 +23,6 @@
 ***
 ![1 8](https://github.com/user-attachments/assets/f1a7b398-a55f-487a-9705-3fa0fca9ecc3)
 ***
-![1 9](https://github.com/user-attachments/assets/138b87c4-cc32-4098-ae94-a4b00933cefc)
-***
 ![1 10 1](https://github.com/user-attachments/assets/08a4d549-3653-44be-b279-c955f06be6f3)
 ***
 ![1 11 2](https://github.com/user-attachments/assets/8853903d-b83f-4b72-97c5-35aaf7dbb523)
@@ -32,10 +30,18 @@
 Ensuite on édite
 ```nano /etc/fstab```
 ***
-On commente dans le nano : 
-#Nouveau point de montage 2ème disque
-```UUID="cc871e7d-5158-46d6-b508-89671f30acbc" /mnt/DATA TYPE="ext4" defaults 0 0```
-**ctrl + x** suivi de ```Y``` pour enregistrer le nano
+On commente dans le nano :  
+#Nouveau point de montage 2ème disque  
+```UUID="cc871e7d-5158-46d6-b508-89671f30acbc" /mnt/DATA TYPE="ext4" defaults 0 0```  
+#Nouvelle partition SWAP  
+```UUID="352f168c-193f-498f-bbda-1a83632a7378" TYPE "swap"```
+***  
+**ctrl + x**  
+suivi de  
+```Y```  
+pour enregistrer le nano
+***
+```mount -a``` Vérifier si le montage à rencontré des problèmes  
 ***
 redémarrage de la VM avec un ```ìnit 6```
 
