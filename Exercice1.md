@@ -29,12 +29,11 @@
 ***
 Ensuite on édite
 ```nano /etc/fstab```
-***
-On commente dans le nano :  
+On commente :  
 #Nouveau point de montage 2ème disque  
 ```UUID="cc871e7d-5158-46d6-b508-89671f30acbc" /mnt/DATA TYPE="ext4" defaults 0 0```  
 #Nouvelle partition SWAP  
-```UUID="352f168c-193f-498f-bbda-1a83632a7378" TYPE "swap"```
+```UUID="352f168c-193f-498f-bbda-1a83632a7378" none swap sw 0 0```
 ***  
 **ctrl + x**  
 suivi de  
