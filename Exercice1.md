@@ -31,9 +31,9 @@ Ensuite on édite
 ```nano /etc/fstab```
 On commente :  
 #Nouveau point de montage 2ème disque  
-```UUID="cc871e7d-5158-46d6-b508-89671f30acbc" /mnt/DATA TYPE="ext4" defaults 0 0```  
+```UUID=cc871e7d-5158-46d6-b508-89671f30acbc /mnt/DATA ext4 defaults 0 0```  
 #Nouvelle partition SWAP  
-```UUID="352f168c-193f-498f-bbda-1a83632a7378" none swap sw 0 0```
+```UUID=352f168c-193f-498f-bbda-1a83632a7378 none swap sw 0 0```
 ***  
 **ctrl + x**  
 suivi de  
@@ -42,5 +42,5 @@ pour enregistrer le nano
 ***
 ```mount -a``` Vérifier si le montage à rencontré des problèmes  
 ***
-redémarrage de la VM avec un ```ìnit 6```
+redémarrage de la VM avec un ```init 6```
 
